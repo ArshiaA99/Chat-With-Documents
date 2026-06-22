@@ -1,4 +1,4 @@
-# 🧠 Chat With Documents
+# 📚 Chat With Documents
 
 A production-style Retrieval-Augmented Generation (RAG) application built with FastAPI, ChromaDB, and Llama 3.3. Upload documents, automatically index them into a vector database, retrieve relevant context through semantic search, and generate grounded answers using a large language model.
 
