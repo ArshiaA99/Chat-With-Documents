@@ -378,7 +378,6 @@ This creates a deterministic retrieval-first workflow suitable for internal know
 
 ---
 
-Screenshots
 ![Chat With Documents Screenshot](images/screenshot.png)
 
 ---
