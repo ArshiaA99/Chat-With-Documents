@@ -96,12 +96,14 @@ A production-style Retrieval-Augmented Generation (RAG) application built with F
 
 ```text
 .
-├── app.py
-├── vectorstore.py
-├── rag.py
-├── llm.py
-├── requirements.txt
-└── README.md
+├── images/
+│   ├── preview.png
+│   └── screenshot.png
+├── src/
+|    ├── app.py
+|    ├── llm.py
+|    ├── rag.py
+|    └── vectorstore.py
 ```
 
 ### app.py
