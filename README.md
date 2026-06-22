@@ -385,6 +385,8 @@ MIT License
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Arshia Karkhanehie**
+
+GitHub: https://github.com/ArshiaA99
