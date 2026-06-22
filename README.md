@@ -124,7 +124,7 @@ Responsibilities:
 
 * PDF/TXT parsing
 * Chunk generation
-* Metadata enrichment
+* Metadata generation for document traceability
 * Embedding generation
 * ChromaDB indexing
 
@@ -300,31 +300,18 @@ according to the retrieved documents.
 
 ---
 
-## Metadata Support
+## Stored Metadata
 
-The ingestion pipeline can enrich documents with metadata.
+Each indexed chunk stores lightweight metadata to support traceability and citation generation.
 
-Example:
+Metadata fields include:
 
-```python
-metadata_map = {
-    "ww2.txt": {
-        "topic": "war",
-        "keywords": "history, fascism, nazism, hitler"
-    }
-}
-```
+- source
+- page (PDF documents)
+- document_id
+- chunk_index
 
-Stored metadata includes:
-
-```text
-source
-page
-document_id
-chunk_index
-topic
-keywords
-```
+This metadata allows the system to identify the origin of retrieved context and provide source citations alongside generated answers.
 
 ---
 
