@@ -156,9 +156,9 @@ Responsibilities:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/enterprise-rag-dashboard.git
+git clone https://github.com/ArshiaA99/Chat-With-Documents.git
 
-cd enterprise-rag-dashboard
+cd Chat-With-Documents
 ```
 
 ### Create Virtual Environment
@@ -180,17 +180,6 @@ source venv/bin/activate
 ```
 
 ### Install Dependencies
-
-```bash
-pip install fastapi
-pip install uvicorn
-pip install chromadb
-pip install langchain-text-splitters
-pip install pypdf
-pip install groq
-```
-
-Or:
 
 ```bash
 pip install -r requirements.txt
