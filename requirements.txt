@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+chromadb
+langchain-text-splitters
+pypdf
+groq
+python-multipart
+onnxruntime
